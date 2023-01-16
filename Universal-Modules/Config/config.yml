@@ -1,0 +1,40 @@
+SQL2:
+    host: azsqlmiprod02.3d2e7db08140.database.windows.net
+    user: Operational_Analytics
+    passwd: February2020!
+    db: BI
+SQL1:
+    host: azsqlmiprod01.3d2e7db08140.database.windows.net
+    user: Operational_Analytics
+    passwd: February2020!
+    db: DNM_DIALLER
+SQL_PRO:
+    host: sdc1sql01
+    user: Audituser
+    passwd: pIkmwN\6?z5R-aD
+    db: COMMONSERVICES
+SQL_UAT2:
+    host: mlh1sqluat02\elysiumuat2cep
+    user: streambase
+    passwd: M4ch1neL34rn
+    db: Pricing
+
+Channel: 'On-Line'
+StartDate: '2022-01-01'
+days_to_subtract : 14
+total_time_limit : 6000
+StartDate_Renewal : '2021-01-01'
+Install_Fee_perc : 0.0941
+Call_Centre_Cost : 19.7
+Web_Enabled : 0.1
+PALE : 32.5
+number_segments : 16
+Conversion_path : 'Conversion'
+DD_path : 'DD_Pen'
+Membership_path : 'Membership'
+standard_commission : 0.2
+Hour_AHT : 0.083
+Agg_field: 'Segment'
+sol_per_pop : 20
+num_parents_mating : 10
+num_generations : 150
